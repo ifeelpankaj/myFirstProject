@@ -1,0 +1,104 @@
+.dashboard {
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: absolute;
+  }
+  
+  .dashboardContainer {
+    border-left: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 0;
+  }
+  
+  .dashboardContainer > h1 {
+    color: rgba(0, 0, 0, 0.733);
+    font: 300 2rem "Roboto";
+    text-align: center;
+    width: 50%;
+    padding: 1.5rem;
+    margin: auto;
+  }
+  .chart{
+    display: flex;
+    
+  }
+  
+  .dashboardSummary {
+    margin: 2rem 0;
+  }
+  
+  .dashboardSummary > div {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+  }
+  .dashboardSummary > div > p {
+    background-color: #0c5452;
+    transform: skewX(-15deg);
+    color: white;
+    font: 300 1.3rem "Roboto";
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0 2rem;
+  }
+  .dashboardSummaryBox2 > a {
+    color: rgb(232, 238, 232);
+    font: 300 2rem "Roboto";
+    text-align: center;
+    background-color: rgb(73, 58, 17);
+    text-decoration: none;
+    padding: 1.5rem;
+    width: 20vmax;
+    height: 5vmax;
+    margin: 2rem;
+    /* border-radius: 20px; */
+    transform: skewX(-15deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .dashboardSummaryBox2 > a:first-child {
+    background-color: rgb(97, 22, 22);
+    color: rgb(255, 255, 255);
+  }
+  
+  .dashboardSummaryBox2 > a:last-child {
+    background-color: rgb(8, 61, 8);
+    color: rgb(255, 255, 255);
+  }
+  
+  .lineChart {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .doughnutChart {
+    width: 20vmax;
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .dashboard {
+      grid-template-columns: 1fr;
+    }
+  
+    .dashboardContainer {
+      border-left: none;
+    }
+  
+    .dashboardSummary > div > p {
+      margin: 0;
+    }
+  
+    .dashboardSummaryBox2 > a {
+      padding: 0.5rem;
+      margin: 1rem;
+      font: 300 0.9rem "Roboto";
+    }
+  }
+  
