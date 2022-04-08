@@ -31,5 +31,14 @@
     "stripe": "^8.195.0",
     "uniqid": "^5.4.0",
     "validator": "^13.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifeelpankaj/myFirstProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ifeelpankaj/myFirstProject/issues"
+  },
+  "homepage": "https://github.com/ifeelpankaj/myFirstProject#readme"
 }
