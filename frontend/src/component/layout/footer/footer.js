@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
 
       <div className="midFooter">
-        <h1>BuyMyBook.</h1>
+        <h1>BookLand.</h1>
         <p>Books that leads yoou toward success !!</p>
 
         <p>Copyrights 2021 &copy; ifeelpankaj</p>

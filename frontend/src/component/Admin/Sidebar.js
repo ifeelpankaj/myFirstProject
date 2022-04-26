@@ -17,7 +17,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <Link to="/">
         {/* <img src={logo} alt="Ecommerce" /> */}
-        <h1 className="Title">BuyMyBook</h1>
+        <h1 className="Title">BookLand</h1>
       </Link>
       <Link to="/admin/dashboard">
         <p>
