@@ -1,9 +1,9 @@
 
 
-import logo from "../../images/BuyMyBook.png"
+import logo from "../../images/Logo.png"
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
-import logo from "../../../images/logo.png";
+
 
 const options = {
   burgerColorHover: "#eb4034",
